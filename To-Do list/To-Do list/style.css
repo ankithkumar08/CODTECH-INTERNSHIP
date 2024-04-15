@@ -1,0 +1,65 @@
+body {
+   background-image: url(images/pic.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+   color: aliceblue;
+}
+
+.parallelogram {
+   width: 400px; 
+   height: 200px;
+   background-color: rgba(21, 1, 1, 0.5); 
+   padding: 20px;
+   margin: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.input-container {
+   display: flex;
+   align-items: center;
+}
+
+input {
+   width: calc(100% - 70px);
+   padding: 8px;
+   border: 2px solid rgb(12, 12, 12);
+   outline: none;
+   font-size: 19px;
+}
+
+button {
+   width: 60px;
+   height: 31px;
+   background-color: rgb(12, 29, 29);
+   color: white;
+   border: none;
+   cursor: pointer;
+   outline: none;
+   border-radius: 2px;
+   font-size: 19px;
+   margin-left: 10px; 
+}
+
+.text ul {
+   position: relative;
+   background-color: rgb(5, 31, 31);
+   color: white;
+   font-size: 19px;
+   padding: 10px;
+   text-align: center;
+}
+
+.text ul i {
+   position: absolute;
+   right: 10px;
+   cursor: pointer;
+}
